@@ -1,22 +1,12 @@
-/*! Rappid v3.1.1 - HTML5 Diagramming Framework - TRIAL VERSION
-
-Copyright (c) 2015 client IO
-
- 2020-03-01 
-
-
-This Source Code Form is subject to the terms of the Rappid Trial License
-, v. 2.0. If a copy of the Rappid License was not distributed with this
-file, You can obtain one at http://jointjs.com/license/rappid_v2.txt
- or from the Rappid archive as was distributed by client IO. See the LICENSE file.*/
-
-
 #paper {
-    margin: 30px auto;
+    margin: auto;
     width: 800px;
     display: block;
     position: relative;
-    border: 1px solid lightgray;
+    border: 1px solid #d3d3d3;
+    background-size: 20px 20px;
+    background-color: #a6b1e1;
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.2) 1px, transparent 0px), linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 0px);
 }
 
 .link-tools .tool-options {

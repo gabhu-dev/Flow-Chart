@@ -1,15 +1,3 @@
-/*! Rappid v3.1.1 - HTML5 Diagramming Framework - TRIAL VERSION
-
-Copyright (c) 2015 client IO
-
- 2020-03-01 
-
-
-This Source Code Form is subject to the terms of the Rappid Trial License
-, v. 2.0. If a copy of the Rappid License was not distributed with this
-file, You can obtain one at http://jointjs.com/license/rappid_v2.txt
- or from the Rappid archive as was distributed by client IO. See the LICENSE file.*/
-
 
 // @import jquery.js
 // @import lodash.js
@@ -58,9 +46,9 @@ app.AppView = joint.mvc.View.extend({
 
                 var cell = this.paper.findView(target).model;
 
-                var text = '- Double-click to edit text inline.';
+                var text = '- Doble click para editar.';
                 if (cell.get('type') === 'qad.Question') {
-                    text += '<br/><br/>- Connect a port with another Question or an Answer.';
+                    text += '<br/><br/>- Conecta un puerto con otro';
                 }
 
                 return  text;
